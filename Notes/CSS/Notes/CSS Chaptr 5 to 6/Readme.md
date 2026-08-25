@@ -2,6 +2,8 @@
 
 Simple notes with **English + Hinglish + Examples + Code + Output**.
 
+<br><br>
+
 ---
 
 # 📘 Chapter 5 — CSS Box Model
@@ -36,14 +38,14 @@ Content → Actual content
 
 Padding → Space inside the border
 
-Border  → Line around the element
+Border → Line around the element
 
-Margin  → Space outside the element
+Margin → Space outside the element
 ```
 
 ---
 
-# 1. Width
+## 1. Width
 
 Controls the width of an element.
 
@@ -57,7 +59,7 @@ Controls the width of an element.
 
 ---
 
-# 2. Height
+## 2. Height
 
 Controls the height of an element.
 
@@ -71,7 +73,7 @@ Controls the height of an element.
 
 ---
 
-# 3. Padding ⭐
+## 3. Padding ⭐
 
 Padding creates space **inside the element**.
 
@@ -115,7 +117,7 @@ padding: 10px 20px 30px 40px;
 
 ---
 
-# 4. Margin ⭐
+## 4. Margin ⭐
 
 Margin creates space **outside the element**.
 
@@ -128,9 +130,11 @@ Margin creates space **outside the element**.
 ```text
 ┌───────────────────────────────┐
 │            Margin             │
+│                               │
 │   ┌───────────────────────┐   │
 │   │        Element        │   │
 │   └───────────────────────┘   │
+│                               │
 └───────────────────────────────┘
 ```
 
@@ -147,19 +151,7 @@ Margin creates space **outside the element**.
 
 ---
 
-# 5. Border
-
-Border element ke around line banata hai.
-
-```css
-.box {
-    border: 2px solid black;
-}
-```
-
----
-
-# ⭐ Padding vs Margin
+## ⭐ Padding vs Margin
 
 ```text
 Padding
@@ -178,29 +170,24 @@ Margin
 ↓
 Element ke BAHAR space
 
-       Margin
-          ↓
 
-┌──────────────┐
-
-    Element
-
-└──────────────┘
+       ┌──────────────┐
+       │   Element    │
+       └──────────────┘
 ```
 
-### One Line Difference
+### Easy Difference
 
 **Padding:** Space inside the element.  
 **Margin:** Space outside the element.
 
-**Hinglish:**  
-Padding andar space deta hai, Margin bahar space deta hai.
+**Hinglish:** Padding andar space deta hai, Margin bahar space deta hai.
 
 ---
 
-# 6. box-sizing ⭐⭐⭐
+## 5. box-sizing ⭐⭐⭐
 
-## Default: `content-box`
+### Default: `content-box`
 
 Normally CSS uses:
 
@@ -221,38 +208,16 @@ Example:
 Actual width becomes:
 
 ```text
-Width
-200px
-
-Padding
-20px + 20px
-
-Border
-5px + 5px
-
-Total
-250px
-```
-
-```text
-Without border-box
-
-┌─────────────────────────────────┐
-│ Border                          │
-│  ┌───────────────────────────┐  │
-│  │ Padding                   │  │
-│  │   ┌───────────────────┐   │  │
-│  │   │ Content = 200px   │   │  │
-│  │   └───────────────────┘   │  │
-│  └───────────────────────────┘  │
-└─────────────────────────────────┘
-
-Total size becomes bigger
+200px Content
++ 40px Padding
++ 10px Border
+───────────────
+250px Total
 ```
 
 ---
 
-## `box-sizing: border-box` ⭐
+### `box-sizing: border-box` ⭐
 
 ```css
 .box {
@@ -267,29 +232,17 @@ Total size becomes bigger
 Now the total width stays:
 
 ```text
-200px
+200px Total
 ```
 
 Padding and border are included inside the width.
-
-```text
-With border-box
-
-┌───────────────────────────┐
-│ Border                    │
-│  Padding                  │
-│    Content                │
-│                           │
-└───────────────────────────┘
-
-Total = 200px
-```
 
 ### Easy Difference
 
 ```text
 Without border-box
 Width + Padding + Border = Bigger size
+
 
 With border-box
 Width already includes Padding + Border
@@ -305,9 +258,9 @@ Width already includes Padding + Border
 
 ---
 
-# 7. min-width & max-width
+## 6. min-width & max-width
 
-## `min-width`
+### `min-width`
 
 Sets the minimum width.
 
@@ -321,7 +274,7 @@ Sets the minimum width.
 
 ---
 
-## `max-width`
+### `max-width`
 
 Sets the maximum width.
 
@@ -335,42 +288,7 @@ Sets the maximum width.
 
 ---
 
-# Chapter 5 Complete Example
-
-```html
-<div class="card">
-    <h2>My Profile</h2>
-    <p>Hello, I am learning CSS.</p>
-</div>
-```
-
-```css
-.card {
-    width: 300px;
-    padding: 20px;
-    margin: 30px auto;
-
-    border: 2px solid black;
-    border-radius: 10px;
-
-    box-sizing: border-box;
-}
-```
-
-### Output
-
-```text
-        ┌──────────────────────┐
-        │     My Profile       │
-        │                      │
-        │ Hello, I am learning │
-        │ CSS.                 │
-        └──────────────────────┘
-```
-
----
-
-# ⚡ Chapter 5 Cheat Sheet
+## ⚡ Chapter 5 Cheat Sheet
 
 ```css
 /* Width */
@@ -403,6 +321,33 @@ max-width: 500px;
 
 ---
 
+# 🏁 Chapter 5 Completed
+
+```text
+Content
+   ↓
+Padding
+   ↓
+Border
+   ↓
+Margin
+```
+
+<br><br><br><br><br>
+
+---
+
+<br><br><br><br><br>
+
+# 🚀 NEXT CHAPTER
+
+<br><br><br><br><br>
+
+---
+
+<br><br><br><br><br>
+
+
 # 📘 Chapter 6 — Text & Fonts
 
 ## What is Text & Fonts?
@@ -413,7 +358,7 @@ max-width: 500px;
 
 ---
 
-# 1. font-family ⭐
+## 1. font-family ⭐
 
 Changes the font style.
 
@@ -435,7 +380,7 @@ p {
 
 ---
 
-# 2. font-size ⭐
+## 2. font-size ⭐
 
 Controls text size.
 
@@ -447,7 +392,7 @@ h1 {
 
 ---
 
-# 3. font-weight
+## 3. font-weight
 
 Controls text thickness.
 
@@ -469,13 +414,15 @@ font-weight: 700;
 
 ```text
 100 → Thin
+
 400 → Normal
+
 700 → Bold
 ```
 
 ---
 
-# 4. font-style
+## 4. font-style
 
 Changes text style.
 
@@ -489,18 +436,21 @@ p {
 
 ```css
 font-style: normal;
+
 font-style: italic;
 ```
 
 ---
 
-# 5. text-align ⭐
+## 5. text-align ⭐
 
 Controls text position.
 
 ```css
 text-align: left;
+
 text-align: center;
+
 text-align: right;
 ```
 
@@ -522,7 +472,7 @@ h1 {
 
 ---
 
-# 6. text-decoration
+## 6. text-decoration
 
 Adds or removes text decoration.
 
@@ -534,7 +484,9 @@ text-decoration: underline;
 
 ```css
 text-decoration: none;
+
 text-decoration: underline;
+
 text-decoration: line-through;
 ```
 
@@ -548,7 +500,7 @@ a {
 
 ---
 
-# 7. text-transform
+## 7. text-transform
 
 Changes text letters.
 
@@ -560,7 +512,9 @@ text-transform: uppercase;
 
 ```css
 text-transform: uppercase;
+
 text-transform: lowercase;
+
 text-transform: capitalize;
 ```
 
@@ -577,7 +531,7 @@ HELLO WORLD
 
 ---
 
-# 8. line-height
+## 8. line-height
 
 Controls space between lines.
 
@@ -603,7 +557,7 @@ Hello World
 
 ---
 
-# 9. letter-spacing
+## 9. letter-spacing
 
 Controls space between letters.
 
@@ -621,7 +575,7 @@ H E L L O
 
 ---
 
-# 10. word-spacing
+## 10. word-spacing
 
 Controls space between words.
 
@@ -639,7 +593,7 @@ Hello      World
 
 ---
 
-# 11. text-shadow ⭐
+## 11. text-shadow ⭐
 
 Adds shadow to text.
 
@@ -651,53 +605,17 @@ h1 {
 
 ```text
 2px → Horizontal shadow
+
 2px → Vertical shadow
+
 5px → Blur
+
 gray → Shadow color
 ```
 
 ---
 
-# Chapter 6 Complete Example
-
-```html
-<div class="content">
-    <h1>Welcome to My Website</h1>
-
-    <p>
-        I am learning CSS and building beautiful websites.
-    </p>
-</div>
-```
-
-```css
-.content {
-    text-align: center;
-}
-
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    text-shadow: 2px 2px 5px gray;
-}
-
-p {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-
-    line-height: 1.6;
-    word-spacing: 5px;
-}
-```
-
----
-
-# ⚡ Chapter 6 Cheat Sheet
+## ⚡ Chapter 6 Cheat Sheet
 
 ```css
 /* Font Family */
@@ -736,35 +654,7 @@ text-shadow: 2px 2px 5px gray;
 
 ---
 
-# 🏆 Final Quick Revision
-
-## Chapter 5 → Box Model
-
-```text
-Content
-↓
-Padding
-↓
-Border
-↓
-Margin
-```
-
-```text
-Padding → Inside space
-
-Margin → Outside space
-
-border-box → Total size stays controlled
-```
-
----
----
----
----
-
-
-## Chapter 6 → Text & Fonts
+# 🏁 Chapter 6 Completed
 
 ```text
 font-family     → Font style
@@ -796,6 +686,7 @@ text-shadow     → Shadow on text
 
 ```text
 Chapter 5 ⭐
+──────────────
 Padding
 Margin
 Box Model
@@ -803,6 +694,7 @@ box-sizing: border-box
 
 
 Chapter 6 ⭐
+──────────────
 font-family
 font-size
 font-weight
