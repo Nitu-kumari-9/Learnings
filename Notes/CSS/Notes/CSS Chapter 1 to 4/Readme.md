@@ -4,6 +4,11 @@ A simple CSS cheat sheet with **English + Hinglish explanations**.
 
 ---
 
+
+
+
+
+
 # 📘 Chapter 1 — Introduction to CSS
 
 ## What is CSS?
@@ -91,6 +96,16 @@ Inline CSS   → Inside HTML element
 Internal CSS → Inside <style>
 External CSS → Separate CSS file ⭐
 ```
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -249,6 +264,18 @@ h1, p          /* Group */
 button:hover   /* Hover */
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 # 📘 Chapter 3 — Colors & Background
@@ -368,6 +395,16 @@ background-position: center;
 /* Stop Repeat */
 background-repeat: no-repeat;
 ```
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -522,9 +559,18 @@ border-radius: 10px;
 border-radius: 50%;
 ```
 
+
+
+
+
+
+
+
+
 ---
 
 # 🏆 Final Quick Revision
+
 
 ## Chapter 1 → CSS Basics
 
@@ -533,6 +579,9 @@ Inline
 Internal
 External ⭐
 ```
+
+
+
 
 ## Chapter 2 → Selectors
 
@@ -546,6 +595,9 @@ Descendant
 :hover ⭐
 ```
 
+
+
+
 ## Chapter 3 → Colors & Background
 
 ```text
@@ -557,6 +609,9 @@ background-position
 background-repeat
 ```
 
+
+
+
 ## Chapter 4 → Border
 
 ```text
@@ -566,6 +621,10 @@ border-style
 border-color
 border-radius ⭐
 ```
+
+
+
+
 
 ---
 
