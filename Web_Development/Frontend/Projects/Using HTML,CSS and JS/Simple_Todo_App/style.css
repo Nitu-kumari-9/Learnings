@@ -1,0 +1,105 @@
+/* Sabhi elements ka default margin remove */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body ki styling */
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+    /* Box ko center mein lane ke liye */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+/* Main container */
+.container {
+    background-color: white;
+
+    width: 400px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px gray;
+}
+
+
+/* Heading */
+h1 {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+/* Input aur button ko ek line mein rakhenge */
+.input-box {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+/* Input box */
+input {
+    flex: 1;
+
+    padding: 10px;
+
+    font-size: 16px;
+}
+
+
+/* Add button */
+button {
+    padding: 10px 15px;
+
+    background-color: black;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+
+/* Task list */
+ul {
+    margin-top: 20px;
+
+    list-style: none;
+}
+
+
+/* Har task */
+li {
+    background-color: #eeeeee;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+/* Delete button */
+.delete {
+    background-color: red;
+
+    padding: 5px 10px;
+}
