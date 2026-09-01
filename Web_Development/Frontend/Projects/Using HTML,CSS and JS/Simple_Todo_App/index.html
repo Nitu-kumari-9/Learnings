@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive banane ke liye -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To Do List</title>
+
+    <!-- CSS file connect -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main box -->
+    <div class="container">
+
+        <h1>To Do List</h1>
+
+        <!-- Input + Button -->
+        <div class="input-box">
+
+            <!-- Yahan task likhenge -->
+            <input type="text" id="taskInput" placeholder="Enter task">
+
+            <!-- Task add karne ka button -->
+            <button onclick="addTask()">Add</button>
+
+        </div>
+
+        <!-- Tasks yahan show honge -->
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <!-- JavaScript file connect -->
+    <script src="script.js"></script>
+
+</body>
+</html>
