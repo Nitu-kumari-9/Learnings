@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Clone - Travel</title>
+
+<!-- Shared CSS file - saare pages isi ek file ko use karte hain -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <div class="navbar">
+    <div class="nav-left">
+      <span class="menu-icon">☰</span>
+      <a href="index.html" class="logo">
+        <span class="play-icon">▶</span>
+        <span class="text">YouTube</span>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <div class="search-bar">
+        <input type="text" placeholder="Search">
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <span>📹</span>
+      <span>🔔</span>
+      <a href="profile.html" class="avatar">A</a>
+    </div>
+  </div>
+
+  <!-- ================= LAYOUT ================= -->
+  <div class="layout">
+
+    <!-- ---------- Sidebar ---------- -->
+    <div class="sidebar">
+      <a href="index.html" class="nav-item">
+        <span class="icon">🏠</span> Home
+      </a>
+      <a href="trending.html" class="nav-item">
+        <span class="icon">🔥</span> Trending
+      </a>
+      <a href="subscriptions.html" class="nav-item">
+        <span class="icon">📺</span> Subscriptions
+      </a>
+
+      <hr>
+
+      <a href="library.html" class="nav-item">
+        <span class="icon">📚</span> Library
+      </a>
+      <a href="history.html" class="nav-item">
+        <span class="icon">🕒</span> History
+      </a>
+
+      <hr>
+
+      <div class="section-title">Subscriptions</div>
+      <a href="coding.html" class="nav-item">
+        <span class="icon">🎬</span> Code With Ravi
+      </a>
+      <a href="music.html" class="nav-item">
+        <span class="icon">🎵</span> Music Lounge
+      </a>
+      <a href="gaming.html" class="nav-item">
+        <span class="icon">🎮</span> GamerZone
+      </a>
+    </div>
+
+    <!-- ---------- Main content ---------- -->
+    <div class="main-content">
+
+      <!-- Category chips -->
+      <div class="chips">
+        <a href="index.html" class="chip">All</a>
+        <a href="music.html" class="chip">Music</a>
+        <a href="gaming.html" class="chip">Gaming</a>
+        <a href="coding.html" class="chip">Coding</a>
+        <a href="live.html" class="chip">Live</a>
+        <a href="news.html" class="chip">News</a>
+        <a href="comedy.html" class="chip">Comedy</a>
+        <a href="travel.html" class="chip active">Travel</a>
+      </div>
+
+      <!-- Video grid -->
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&q=80" alt="Video thumbnail">
+            <span class="duration">06:40</span>
+          </div>
+          <div class="video-info">
+            <img class="channel-avatar" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&q=80" alt="Channel">
+            <div>
+              <p class="video-title">Goa Trip Vlog - Best Beaches Aur Food</p>
+              <p class="channel-name">Travel Diaries</p>
+              <p class="video-meta">310K views • 1 din pehle</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1519681393784-987654321fed?w=500&q=80" alt="Video thumbnail">
+            <span class="duration">09:15</span>
+          </div>
+          <div class="video-info">
+            <img class="channel-avatar" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&q=80" alt="Channel">
+            <div>
+              <p class="video-title">Manali Mein Barfbaari - Winter Vlog</p>
+              <p class="channel-name">Travel Diaries</p>
+              <p class="video-meta">450K views • 5 din pehle</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- video-grid end -->
+
+    </div> <!-- main-content end -->
+
+  </div> <!-- layout end -->
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Clone - Home</title>
+
+<!-- Shared CSS file - saare pages isi ek file ko use karte hain -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <div class="navbar">
+    <div class="nav-left">
+      <span class="menu-icon">☰</span>
+      <a href="index.html" class="logo">
+        <span class="play-icon">▶</span>
+        <span class="text">YouTube</span>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <div class="search-bar">
+        <input type="text" placeholder="Search">
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <span>📹</span>
+      <span>🔔</span>
+      <a href="profile.html" class="avatar">A</a>
+    </div>
+  </div>
+
+  <!-- ================= LAYOUT ================= -->
+  <div class="layout">
+
+    <!-- ---------- Sidebar ---------- -->
+    <div class="sidebar">
+      <a href="index.html" class="nav-item active">
+        <span class="icon">🏠</span> Home
+      </a>
+      <a href="trending.html" class="nav-item">
+        <span class="icon">🔥</span> Trending
+      </a>
+      <a href="subscriptions.html" class="nav-item">
+        <span class="icon">📺</span> Subscriptions
+      </a>
+
+      <hr>
+
+      <a href="library.html" class="nav-item">
+        <span class="icon">📚</span> Library
+      </a>
+      <a href="history.html" class="nav-item">
+        <span class="icon">🕒</span> History
+      </a>
+
+      <hr>
+
+      <div class="section-title">Subscriptions</div>
+      <a href="coding.html" class="nav-item">
+        <span class="icon">🎬</span> Code With Ravi
+      </a>
+      <a href="music.html" class="nav-item">
+        <span class="icon">🎵</span> Music Lounge
+      </a>
+      <a href="gaming.html" class="nav-item">
+        <span class="icon">🎮</span> GamerZone
+      </a>
+    </div>
+
+    <!-- ---------- Main content ---------- -->
+    <div class="main-content">
+
+      <!-- Category chips -->
+      <div class="chips">
+        <a href="index.html" class="chip active">All</a>
+        <a href="music.html" class="chip">Music</a>
+        <a href="gaming.html" class="chip">Gaming</a>
+        <a href="coding.html" class="chip">Coding</a>
+        <a href="live.html" class="chip">Live</a>
+        <a href="news.html" class="chip">News</a>
+        <a href="comedy.html" class="chip">Comedy</a>
+        <a href="travel.html" class="chip">Travel</a>
+      </div>
+
+      <!-- Video grid -->
+      <!-- Yeh saare 7 videos TUMHARE diye hue real YouTube links hain.
+           Har card ek <a> tag hai, isliye click karte hi asli YouTube video khulega. -->
+      <div class="video-grid">
+
+        <a class="video-card" href="https://youtu.be/yg8116aeD7E" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/yg8116aeD7E/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 1 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="video-card" href="https://youtu.be/ldgl9Bd3lLg" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/ldgl9Bd3lLg/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 2 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="video-card" href="https://youtu.be/D1eL1EnxXXQ" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/D1eL1EnxXXQ/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 3 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="video-card" href="https://youtu.be/OvLIae4HCeM" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/OvLIae4HCeM/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 4 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="video-card" href="https://youtu.be/gPx12V4yiIk" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/gPx12V4yiIk/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 5 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="video-card" href="https://youtu.be/3WpzNmY35S4" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/3WpzNmY35S4/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 6 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="video-card" href="https://youtu.be/VaaY33js3Cs" target="_blank">
+          <div class="thumbnail">
+            <img src="https://img.youtube.com/vi/VaaY33js3Cs/hqdefault.jpg" alt="Video thumbnail">
+          </div>
+          <div class="video-info">
+            <div>
+              <p class="video-title">Video 7 - (title yahan likho)</p>
+              <p class="channel-name">Channel name yahan likho</p>
+            </div>
+          </div>
+        </a>
+
+      </div> <!-- video-grid end -->
+
+    </div> <!-- main-content end -->
+
+  </div> <!-- layout end -->
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Clone - Coding</title>
+
+<!-- Shared CSS file - saare pages isi ek file ko use karte hain -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <div class="navbar">
+    <div class="nav-left">
+      <span class="menu-icon">☰</span>
+      <a href="index.html" class="logo">
+        <span class="play-icon">▶</span>
+        <span class="text">YouTube</span>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <div class="search-bar">
+        <input type="text" placeholder="Search">
+        <button>🔍</button>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <span>📹</span>
+      <span>🔔</span>
+      <a href="profile.html" class="avatar">A</a>
+    </div>
+  </div>
+
+  <!-- ================= LAYOUT ================= -->
+  <div class="layout">
+
+    <!-- ---------- Sidebar ---------- -->
+    <div class="sidebar">
+      <a href="index.html" class="nav-item">
+        <span class="icon">🏠</span> Home
+      </a>
+      <a href="trending.html" class="nav-item">
+        <span class="icon">🔥</span> Trending
+      </a>
+      <a href="subscriptions.html" class="nav-item">
+        <span class="icon">📺</span> Subscriptions
+      </a>
+
+      <hr>
+
+      <a href="library.html" class="nav-item">
+        <span class="icon">📚</span> Library
+      </a>
+      <a href="history.html" class="nav-item">
+        <span class="icon">🕒</span> History
+      </a>
+
+      <hr>
+
+      <div class="section-title">Subscriptions</div>
+      <a href="coding.html" class="nav-item">
+        <span class="icon">🎬</span> Code With Ravi
+      </a>
+      <a href="music.html" class="nav-item">
+        <span class="icon">🎵</span> Music Lounge
+      </a>
+      <a href="gaming.html" class="nav-item">
+        <span class="icon">🎮</span> GamerZone
+      </a>
+    </div>
+
+    <!-- ---------- Main content ---------- -->
+    <div class="main-content">
+
+      <!-- Category chips -->
+      <div class="chips">
+        <a href="index.html" class="chip">All</a>
+        <a href="music.html" class="chip">Music</a>
+        <a href="gaming.html" class="chip">Gaming</a>
+        <a href="coding.html" class="chip active">Coding</a>
+        <a href="live.html" class="chip">Live</a>
+        <a href="news.html" class="chip">News</a>
+        <a href="comedy.html" class="chip">Comedy</a>
+        <a href="travel.html" class="chip">Travel</a>
+      </div>
+
+      <!-- Video grid -->
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="Video thumbnail">
+            <span class="duration">12:34</span>
+          </div>
+          <div class="video-info">
+            <img class="channel-avatar" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=100&q=80" alt="Channel">
+            <div>
+              <p class="video-title">CSS Grid Poori Tarah Samjho - Beginner se Advanced</p>
+              <p class="channel-name">Code With Ravi</p>
+              <p class="video-meta">120K views • 2 din pehle</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&q=80" alt="Video thumbnail">
+            <span class="duration">22:47</span>
+          </div>
+          <div class="video-info">
+            <img class="channel-avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" alt="Channel">
+            <div>
+              <p class="video-title">JavaScript Basics - Ek Din Mein Seekho</p>
+              <p class="channel-name">Code With Ravi</p>
+              <p class="video-meta">89K views • 3 din pehle</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&q=80" alt="Video thumbnail">
+            <span class="duration">10:55</span>
+          </div>
+          <div class="video-info">
+            <img class="channel-avatar" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" alt="Channel">
+            <div>
+              <p class="video-title">Flexbox vs Grid - Kab Kaunsa Use Karein?</p>
+              <p class="channel-name">Code With Ravi</p>
+              <p class="video-meta">75K views • 6 din pehle</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1461749280684-1234567890ab?w=500&q=80" alt="Video thumbnail">
+            <span class="duration">09:20</span>
+          </div>
+          <div class="video-info">
+            <img class="channel-avatar" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=100&q=80" alt="Channel">
+            <div>
+              <p class="video-title">HTML Forms Full Tutorial</p>
+              <p class="channel-name">Code With Ravi</p>
+              <p class="video-meta">54K views • 1 hafta pehle</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- video-grid end -->
+
+    </div> <!-- main-content end -->
+
+  </div> <!-- layout end -->
+
+</body>
+</html>

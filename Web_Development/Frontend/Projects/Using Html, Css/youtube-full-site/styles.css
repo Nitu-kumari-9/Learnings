@@ -1,0 +1,406 @@
+/* =======================================================
+   SHARED STYLESHEET - Yeh file har page (index, music, profile)
+   sabhi mein <link> tag se jodi gayi hai. Isliye ek jagah
+   change karne se sabhi pages update ho jayenge.
+   ======================================================= */
+
+/* ---------- Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Padding/border width ke andar hi count honge */
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #0F0F0F;
+}
+
+/* ================= TOP NAVBAR ================= */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  position: sticky; /* Scroll karne pe bhi navbar upar chipka rahega */
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 100;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-left .menu-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Logo pe click karne se hamesha Home (index.html) pe wapas jayega */
+.nav-left .logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-decoration: none; /* Link ka default underline hata diya */
+  color: #0F0F0F;
+}
+
+.nav-left .logo .play-icon {
+  background-color: #FF0000; /* YouTube ka red color */
+  color: white;
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 40px;
+}
+
+.search-bar {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 16px;
+  border: 1px solid #D3D3D3;
+  border-radius: 20px 0 0 20px; /* Sirf left side rounded */
+  font-size: 15px;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: #1A73E8; /* Focus pe blue border - YouTube jaisa */
+}
+
+.search-bar button {
+  padding: 0 22px;
+  background-color: #F8F8F8;
+  border: 1px solid #D3D3D3;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 20px;
+}
+
+/* Avatar ab ek <a> link hai - iss pe click karke profile.html khulega */
+.nav-right .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #7B4FE0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ================= LAYOUT: Sidebar + Main content ================= */
+.layout {
+  display: flex;
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+  width: 240px;
+  padding: 12px 8px;
+  flex-shrink: 0;
+}
+
+/* Sidebar ke saare items ab <a> tags hain, isliye text-decoration hata di */
+.sidebar .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #0F0F0F;
+  transition: background-color 0.15s ease;
+}
+
+.sidebar .nav-item:hover {
+  background-color: #F2F2F2;
+}
+
+/* Jis page pe hum currently hain, uska sidebar item highlighted rahega */
+.sidebar .nav-item.active {
+  background-color: #F2F2F2;
+  font-weight: 600;
+}
+
+.sidebar .nav-item .icon {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+}
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #E5E5E5;
+  margin: 12px 0;
+}
+
+.sidebar .section-title {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 12px;
+  color: #0F0F0F;
+}
+
+/* ---------- Main content area ---------- */
+.main-content {
+  flex: 1;
+  padding: 20px 24px;
+}
+
+/* Category filter chips row (All, Music, Gaming, etc) - ab yeh links hain */
+.chips {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.chips .chip {
+  padding: 7px 14px;
+  background-color: #F2F2F2;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none; /* Link ka underline hata diya */
+  color: #0F0F0F;
+  transition: background-color 0.15s ease;
+}
+
+.chips .chip:hover {
+  background-color: #E5E5E5;
+}
+
+/* Jis category page pe hum hain, uska chip black dikhega */
+.chips .chip.active {
+  background-color: #0F0F0F;
+  color: white;
+}
+
+/* ---------- Video grid ---------- */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 videos per row */
+  gap: 24px 16px;
+}
+
+.video-card {
+  cursor: pointer;
+  /* Ab video-card ek <a> link hai, isliye default link jaisa blue/underline style hata rahe hain */
+  text-decoration: none;
+  color: inherit; /* Text ka color parent se hi le lega, link ka default blue nahi */
+  display: block;
+}
+
+.thumbnail {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio trick */
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: #E5E5E5;
+}
+
+.thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail .duration {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.video-info {
+  display: flex;
+  gap: 10px;
+}
+
+.video-info .channel-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.video-info .video-title {
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.video-info .channel-name,
+.video-info .video-meta {
+  font-size: 13px;
+  color: #606060;
+}
+
+/* ================= PROFILE PAGE (profile.html ke liye) ================= */
+
+.profile-section {
+  max-width: 935px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.profile-pic img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #DBDBDB;
+  padding: 3px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.username-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.username-row h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.edit-btn {
+  background-color: #F2F2F2;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn:hover {
+  background-color: #E5E5E5;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.profile-stats span {
+  font-weight: 600;
+}
+
+.profile-bio p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Back to home link jo profile page ke upar dikhega */
+.back-link {
+  display: inline-block;
+  max-width: 935px;
+  margin: 20px auto 0 auto;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #1A73E8;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1400px) {
+  .video-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-center {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nav-left .logo span.text {
+    display: none;
+  }
+  .profile-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
