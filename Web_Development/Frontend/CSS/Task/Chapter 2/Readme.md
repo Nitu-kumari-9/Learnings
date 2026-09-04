@@ -1,3 +1,4 @@
 ## View
 
-![Uploading Screenshot 2026-09-04 at 11.59.59 AM.png…]()
+
+<img width="841" height="913" alt="image" src="https://github.com/user-attachments/assets/13dc9cb3-7c89-4ce6-8dd4-4be93bdd38c8" />
