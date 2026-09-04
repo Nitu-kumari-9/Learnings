@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* Dono box ("post" wala aur "sidebar" wala) ko ek jaisa basic dikhne ke liye */
+.post,
+.sidebar {
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+/* Sirf wahi h2, jo "post" ke ANDAR hai, uska color dark blue hoga */
+.post h2 {
+  color: darkblue;
+}
+
+/* Sirf wahi "meta" class, jo "post" ke ANDAR hai, uska style ye hoga */
+.post .meta {
+  color: gray;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Sirf wahi link (a tag), jo "post" ke ANDAR hai */
+.post a {
+  color: teal;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Jab mouse link ke upar le jao, tab underline dikhega */
+.post a:hover {
+  text-decoration: underline;
+}
+
+/* Ab yaha "sidebar" ke andar wala h2 hai - isko red color diya, "post" wale se alag */
+.sidebar h2 {
+  color: darkred;
+}
+
+/* Sidebar ka background halka grey rakha */
+.sidebar {
+  background-color: #f7f7f7;
+}
+
+/* Sidebar ke andar wali "meta" class ka style alag hai post wali se */
+.sidebar .meta {
+  color: darkorange;
+  font-weight: bold;
+}
+
+/* Sidebar ke andar wala link bhi alag color mein hai */
+.sidebar a {
+  color: crimson;
+  text-decoration: underline;
+}
