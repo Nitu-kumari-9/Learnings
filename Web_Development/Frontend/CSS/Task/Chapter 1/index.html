@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My First Styled Page</title>
+
+<!-- 1. EXTERNAL CSS: linked from a separate .css file -->
+<link rel="stylesheet" href="style.css">
+
+<!-- 2. INTERNAL CSS: written inside a <style> tag in this same file -->
+<style>
+  h1 {
+    color: darkblue;
+    font-size: 32px;
+  }
+  .tag {
+    background-color: yellow;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>My First Styled Page</h1>
+
+  <p>This heading above is styled using <span class="tag">Internal CSS</span> (written in a &lt;style&gt; tag).</p>
+
+  <p class="external-text">This paragraph is styled using <span class="tag">External CSS</span> (from style.css).</p>
+
+  <!-- 3. INLINE CSS: written directly on the element using the style attribute -->
+  <p style="color: green; font-weight: bold; background-color: #eafbea; padding: 8px;">
+    This paragraph is styled using Inline CSS (written directly in the style attribute).
+  </p>
+
+  <hr>
+
+  <p>CSS can be written in three places, and all three are shown on this page:</p>
+  <ul>
+    <li><strong>Inline</strong> — inside the element's own <code>style</code> attribute.</li>
+    <li><strong>Internal</strong> — inside a <code>&lt;style&gt;</code> tag in the &lt;head&gt;.</li>
+    <li><strong>External</strong> — inside a separate .css file, linked with &lt;link&gt;.</li>
+  </ul>
+
+</body>
+</html>
