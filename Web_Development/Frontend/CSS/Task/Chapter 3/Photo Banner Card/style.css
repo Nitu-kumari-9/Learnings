@@ -1,0 +1,32 @@
+/* Heading ka color diya */
+.title {
+  color: black;
+}
+
+/* Ye card mein image background lagaya hai - ek bada banner jaisa dikhta hai */
+.photo-card {
+  /* Image kahan se aayegi */
+  background-image: url("https://picsum.photos/id/1015/1000/400");
+
+  /* Image poore card ko cover kar legi, khichegi nahi */
+  background-size: cover;
+
+  /* Image card ke center se dikhegi */
+  background-position: center;
+
+  /* Image baar baar repeat nahi hogi */
+  background-repeat: no-repeat;
+
+  /* Card ki height badi rakhi, taaki banner jaisa lage */
+  height: 300px;
+
+  /* Text image ke upar white color mein saaf dikhega */
+  color: white;
+}
+
+/* Ye card sirf solid background-color se rangaa hai */
+.plain-card {
+  background-color: teal;
+  color: white;
+  height: 80px;
+}
