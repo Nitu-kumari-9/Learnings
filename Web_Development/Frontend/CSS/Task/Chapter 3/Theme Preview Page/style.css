@@ -1,0 +1,15 @@
+.title {
+  color: black;
+}
+
+/* Light theme - halka background, dark text */
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme - gehra background, halka text */
+.dark-theme {
+  background-color: black;
+  color: white;
+}
