@@ -1,0 +1,27 @@
+.title {
+  color: black;
+}
+
+/* Ye badge poora gol dikhta hai - border-radius 50% se circle bana */
+.circle-badge {
+  width: 100px;
+  height: 100px;
+
+  background-color: crimson;
+  color: white;
+
+  border: 3px solid darkred;
+  border-radius: 50%;
+}
+
+/* Ye badge ka sirf corner thoda smooth/round hai */
+.soft-badge {
+  width: 100px;
+  height: 50px;
+
+  background-color: gold;
+  color: black;
+
+  border: 3px solid darkorange;
+  border-radius: 10px;
+}
