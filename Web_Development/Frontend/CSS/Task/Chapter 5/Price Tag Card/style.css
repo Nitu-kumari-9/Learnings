@@ -1,0 +1,31 @@
+.title {
+  color: black;
+}
+
+/* Ye card fixed size ka hai aur page ke center mein aata hai */
+.price-card {
+  background-color: lightyellow;
+
+  /* Card ki fixed width di */
+  width: 300px;
+
+  /* Andar text aur border ke beech gap */
+  padding: 20px;
+
+  /* Card ko left-right center karne ke liye */
+  margin: auto;
+
+  /* Card ke chaaro taraf border */
+  border: 2px solid black;
+
+  /* Padding aur border width ke andar hi rahenge, box bahar nahi badhega */
+  box-sizing: border-box;
+}
+
+.product-name {
+  color: darkgreen;
+}
+
+.product-price {
+  color: crimson;
+}
