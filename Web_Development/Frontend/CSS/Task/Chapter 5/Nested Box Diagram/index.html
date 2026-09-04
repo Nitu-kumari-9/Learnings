@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nested Box Diagram</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="title">Nested Box Diagram</h1>
+  <hr>
+
+  <!-- Sabse bahar wala box "margin" dikhata hai -->
+  <div class="margin-layer">
+    Margin
+
+    <!-- Uske andar wala box "border" dikhata hai -->
+    <div class="border-layer">
+      Border
+
+      <!-- Uske andar wala box "padding" dikhata hai -->
+      <div class="padding-layer">
+        Padding
+
+        <!-- Sabse andar wala box "content" hai -->
+        <div class="content-layer">Content</div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
