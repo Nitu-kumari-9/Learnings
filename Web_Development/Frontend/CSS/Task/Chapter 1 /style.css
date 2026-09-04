@@ -1,0 +1,30 @@
+/* This is EXTERNAL CSS - a separate .css file linked to the HTML page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 40px;
+  color: #333333;
+}
+
+.external-text {
+  color: crimson;
+  font-size: 18px;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 24px 0;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+code {
+  background-color: #eeeeee;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
