@@ -1,0 +1,23 @@
+.title {
+  color: black;
+}
+
+/* Ye ticket card hai - left side ki border thick aur alag color hai, baaki teeno simple */
+.ticket {
+  background-color: lightyellow;
+  width: 260px;
+
+  /* Pehle sabhi border ek jaisi thin di */
+  border: 1px solid gray;
+
+  /* Fir sirf left border ko overwrite karke thick aur alag color diya */
+  border-left: 8px solid crimson;
+}
+
+.ticket-name {
+  color: darkred;
+}
+
+.ticket-info {
+  color: dimgray;
+}
