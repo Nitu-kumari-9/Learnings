@@ -1,0 +1,26 @@
+/* Heading ka color diya - class selector use kiya */
+.title {
+  color: black;
+}
+
+.subtitle {
+  color: gray;
+}
+
+/* Color ka naam seedha likh diya */
+.red-card {
+  background-color: red;
+  color: white;
+}
+
+/* Color hex code se diya, # ke baad 6 digit */
+.blue-card {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Color rgb se diya, red green blue ki value */
+.green-card {
+  background-color: rgb(46, 204, 113);
+  color: white;
+}
