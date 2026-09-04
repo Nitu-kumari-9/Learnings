@@ -1,0 +1,27 @@
+.title {
+  color: black;
+}
+
+/* Sabse bahar wala layer - margin dikhane ke liye */
+.margin-layer {
+  background-color: mistyrose;
+  margin: 30px;
+}
+
+/* Uske andar wala layer - border dikhane ke liye */
+.border-layer {
+  background-color: lightyellow;
+  border: 6px solid orange;
+}
+
+/* Uske andar wala layer - padding dikhane ke liye */
+.padding-layer {
+  background-color: lightblue;
+  padding: 25px;
+}
+
+/* Sabse andar wala layer - asli content */
+.content-layer {
+  background-color: lightgreen;
+  color: black;
+}
