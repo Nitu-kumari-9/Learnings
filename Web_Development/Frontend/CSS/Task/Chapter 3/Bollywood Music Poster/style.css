@@ -1,0 +1,30 @@
+
+/* Poster ka background */
+.poster-image {
+  background-color: #222;
+  background-image: url("pal pal dil ke pass.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+/* Song ka title */
+.song-title {
+  color: black;
+}
+
+/* Song line */
+.song-line {
+  color: blue;
+}
+
+/* Song ka type */
+.song-type {
+  color: red;
+}
+
+/* Song ka year */
+.song-year {
+  color: green;
+}
