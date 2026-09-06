@@ -1,0 +1,115 @@
+body {
+    background-color: #f2ead3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* Main Ticket */
+
+.auto-ticket {
+    background-color: white;
+    border: 3px dashed #222;
+    border-radius: 15px;
+}
+
+
+/* Top Text */
+
+.ticket-top {
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+/* Ticket Title */
+
+.ticket-title {
+    color: #d35400;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px gray;
+}
+
+
+/* Route */
+
+.route-label {
+    color: #888;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.route-name {
+    color: #222;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/* From & To */
+
+.from-text {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.arrow {
+    color: #d35400;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.to-text {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* Charge */
+
+.fare-label {
+    color: #888;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.fare-price {
+    color: #16803c;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px gray;
+}
+
+
+/* Bottom */
+
+.journey-text {
+    color: #d35400;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.safe-text {
+    color: #555;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
