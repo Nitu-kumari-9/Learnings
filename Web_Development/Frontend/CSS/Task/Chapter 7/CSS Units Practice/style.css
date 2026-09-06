@@ -1,0 +1,101 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.title {
+    color: #222;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* PX */
+
+.px-box {
+    width: 300px;
+    background-color: #ffcc80;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.px-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* % */
+
+.percent-box {
+    width: 50%;
+    background-color: #90caf9;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.percent-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* EM */
+
+.em-box {
+    font-size: 20px;
+    background-color: #a5d6a7;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.em-box p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+/* REM */
+
+.rem-box {
+    background-color: #ce93d8;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.rem-box p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* VW */
+
+.vw-box {
+    width: 50vw;
+    background-color: #ef9a9a;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.vw-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* VH */
+
+.vh-box {
+    height: 100vh;
+    background-color: #80cbc4;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.vh-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
