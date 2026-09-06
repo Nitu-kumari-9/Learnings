@@ -1,0 +1,63 @@
+.title {
+  color: black;
+}
+
+/* Poora ID card - fixed size, center mein, border ke saath */
+.id-card {
+  background-color: white;
+
+  width: 320px;
+  min-width: 280px;
+  max-width: 340px;
+
+  padding: 20px;
+  margin: auto;
+
+  border: 3px solid navy;
+  box-sizing: border-box;
+}
+
+/* Card ka header - college ka naam */
+.card-header {
+  background-color: navy;
+  color: white;
+
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Photo ka chota box */
+.photo-box {
+  background-color: lightgray;
+  color: black;
+
+  width: 80px;
+  height: 80px;
+
+  margin: auto;
+  border: 2px solid gray;
+  box-sizing: border-box;
+}
+
+/* Student ka naam */
+.student-name {
+  color: darkblue;
+  margin: 15px 0 8px 0;
+}
+
+/* Student ki har detail line */
+.student-info {
+  color: dimgray;
+  margin: 4px 0;
+}
+
+/* Card ka footer strip */
+.card-footer {
+  background-color: gold;
+  color: black;
+
+  padding: 6px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
