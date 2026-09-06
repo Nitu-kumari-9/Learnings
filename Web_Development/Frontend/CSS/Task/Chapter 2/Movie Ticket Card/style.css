@@ -1,0 +1,36 @@
+
+/* Sab elements ko select kiya */
+* {
+    color: black;
+}
+
+/* Saare p ko style kiya */
+p {
+    color: darkblue;
+}
+
+/* Movie wale text ko select kiya */
+.filmy {
+    color: darkred;
+}
+
+/* Main heading ko select kiya */
+#jhakas {
+    color: darkgreen;
+}
+
+/* H1 aur p dono ko select kiya */
+h1, p {
+    color: navy;
+}
+
+/* Card ke andar ke p ko select kiya */
+.mastikaro p {
+    color: purple;
+}
+
+/* Button par mouse le jao */
+button:hover {
+    color: red;
+}
+
