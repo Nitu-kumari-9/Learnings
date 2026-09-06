@@ -1,0 +1,58 @@
+
+/* Movie card */
+.filmy-card {
+    width: 450px;
+    border: 3px solid red;
+    background-color: #111111;
+    background-image: url("movie.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Movie title */
+.movie-title {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+/* Movie type */
+.movie-type {
+    color: yellow;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* YouTube trailer */
+.trailer {
+    border: 3px solid white;
+}
+
+/* Watch text */
+.watch-text {
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Description */
+.movie-info {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+
