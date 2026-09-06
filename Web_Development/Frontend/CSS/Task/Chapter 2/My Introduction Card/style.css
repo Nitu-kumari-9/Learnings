@@ -1,0 +1,34 @@
+/* Sabko select kiya */
+* {
+    color: black;
+}
+
+/* Saare p ko select kiya */
+p {
+    color: blue;
+}
+
+/* Role ko select kiya */
+.mast-role {
+    color: purple;
+}
+
+/* Name ko select kiya */
+#meraNaam {
+    color: darkred;
+}
+
+/* H1 aur H2 dono */
+h1, h2 {
+    color: darkgreen;
+}
+
+/* Box ke andar wale p */
+.andar-ka-box p {
+    color: orange;
+}
+
+/* Button par mouse lao */
+button:hover {
+    color: red;
+}
