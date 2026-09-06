@@ -1,0 +1,114 @@
+
+body {
+    background-color: #111111;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+.website {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    border: 2px solid #444444;
+    padding: 30px;
+}
+
+.header {
+    background-color: #8b0000;
+    color: white;
+    border: 2px solid #ff4444;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header p {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.movie-section {
+    background-color: #252525;
+    border: 2px solid #555555;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.poster {
+    width: 300px;
+    height: 400px;
+    background-color: #333333;
+    background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+    border: 3px solid #ff4444;
+    margin: 0 auto 25px auto;
+}
+
+.movie-title {
+    background-color: #8b0000;
+    color: white;
+    border: 2px solid #ff4444;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.movie-title h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.details {
+    background-color: #181818;
+    border: 2px solid #555555;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.detail-box {
+    background-color: #292929;
+    color: #eeeeee;
+    border: 1px solid #666666;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.price {
+    background-color: #145214;
+    color: white;
+    border: 2px solid #42d642;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.ticket {
+    background-color: #f5f5f5;
+    color: #111111;
+    border: 3px dashed #111111;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.ticket h2 {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.ticket-info {
+    background-color: #dddddd;
+    color: #111111;
+    border: 1px solid #888888;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #8b0000;
+    color: white;
+    border: 2px solid #ff4444;
+    padding: 20px;
+    margin-top: 30px;
+}
