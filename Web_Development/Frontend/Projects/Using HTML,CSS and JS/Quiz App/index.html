@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <!-- Quiz Header -->
+        <div class="quiz-header">
+            <h1>Quiz App</h1>
+
+            <div class="quiz-info">
+                <span id="question-number">Question 1 of 10</span>
+                <span id="timer">Time: 15s</span>
+            </div>
+
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+
+
+        <!-- Quiz Section -->
+        <div id="quiz-section">
+
+            <h2 id="question">
+                Question will appear here
+            </h2>
+
+            <div id="options-container">
+
+                <!-- Options will be created by JavaScript -->
+
+            </div>
+
+            <button id="next-btn" disabled>
+                Next
+            </button>
+
+        </div>
+
+
+        <!-- Result Section -->
+        <div id="result-section" class="hidden">
+
+            <h2>Quiz Completed </h2>
+
+            <div class="result-box">
+
+                <p>Your Score</p>
+
+                <h3 id="score">
+                    0 / 10
+                </h3>
+
+                <p id="result-message">
+                    Good job!
+                </p>
+
+            </div>
+
+            <button id="restart-btn">
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
