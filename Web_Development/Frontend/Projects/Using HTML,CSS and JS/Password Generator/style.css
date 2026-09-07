@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f1f5f9;
+
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    color: #1e293b;
+}
+
+
+/* Password Box */
+
+.password-box {
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+}
+
+#password {
+    flex: 1;
+
+    min-width: 0;
+
+    padding: 13px;
+
+    border: 2px solid #e2e8f0;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+#password:focus {
+    border-color: #2563eb;
+}
+
+#copy-btn {
+    padding: 0 18px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #475569;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+#copy-btn:hover {
+    background: #334155;
+}
+
+
+/* Length */
+
+.length-section {
+    margin-bottom: 25px;
+}
+
+.length-section label {
+    display: block;
+
+    margin-bottom: 12px;
+
+    color: #334155;
+
+    font-weight: bold;
+}
+
+#length {
+    width: 100%;
+
+    cursor: pointer;
+}
+
+
+/* Options */
+
+.options {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-bottom: 25px;
+}
+
+.options label {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #475569;
+
+    cursor: pointer;
+}
+
+.options input {
+    width: 17px;
+    height: 17px;
+
+    cursor: pointer;
+}
+
+
+/* Strength */
+
+.strength {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 15px;
+
+    background: #f8fafc;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+
+    color: #475569;
+}
+
+#strength {
+    color: #16a34a;
+}
+
+
+/* Generate Button */
+
+#generate-btn {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+#generate-btn:hover {
+    background: #1d4ed8;
+}
+
+
+/* Mobile */
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .password-box {
+        flex-direction: column;
+    }
+
+    #copy-btn {
+        padding: 12px;
+    }
+}
+
