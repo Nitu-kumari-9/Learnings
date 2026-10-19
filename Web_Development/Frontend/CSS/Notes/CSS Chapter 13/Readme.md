@@ -1,4 +1,4 @@
-## 9. Practice Questions
+## Practice Questions
 
 1. Create a box that changes from red to green.
 2. Create a box that moves from left to right.
@@ -13,7 +13,7 @@
 
 ---
 
-## 10. Chapter Cheat Sheet
+## Chapter Cheat Sheet
 
 | Property | Easy Hinglish |
 |---|---|
