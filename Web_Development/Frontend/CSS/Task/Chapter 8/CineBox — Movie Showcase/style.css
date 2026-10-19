@@ -1,0 +1,189 @@
+
+/* Basic reset: default spacing remove */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Vintage paper jaisa background */
+body {
+    background-color: #f4ecd9;
+    color: #29251f;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+/* Header: logo left, links right */
+header {
+    background-color: #f4ecd9;
+    padding: 25px;
+    border-bottom: 2px solid #29251f;
+}
+
+.logo {
+    display: inline-block;
+    width: 35%;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.logo span {
+    color: #c53b2c;
+}
+
+nav {
+    display: inline-block;
+    width: 64%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #29251f;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+/* Hero: vintage poster jaisa main section */
+.hero {
+    background-color: #e7bd55;
+    padding: 60px 25px 30px;
+    border-bottom: 2px solid #29251f;
+}
+
+.small-title {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #c53b2c;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin: 25px 0;
+}
+
+.hero-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #c53b2c;
+    color: #fff8e9;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    border: 2px solid #29251f;
+}
+
+.hero-number {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+}
+
+/* Film collection */
+.films {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.films h2 {
+    font-size: 40px;
+    margin: 15px 0 25px;
+}
+
+.films h2 span {
+    color: #c53b2c;
+}
+
+/* Har film ka poster card */
+.film-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin: 12px;
+    padding: 12px;
+    background-color: #fff8e9;
+    border: 1px solid #29251f;
+    text-align: left;
+}
+
+.film-card img {
+    width: 100%;
+    height: 320px;
+    border: 1px solid #29251f;
+}
+
+.film-type {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #c53b2c;
+    margin-top: 15px;
+}
+
+.film-card h3 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.film-info {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+.film-rating {
+    background-color: #e7bd55;
+    display: inline-block;
+    padding: 7px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+/* Club introduction */
+.about {
+    background-color: #c53b2c;
+    color: #fff8e9;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 2px solid #29251f;
+}
+
+.about .small-title {
+    color: #e7bd55;
+}
+
+.about h2 {
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #29251f;
+    color: #f4ecd9;
+    padding: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+footer p {
+    margin: 8px 0;
+}
