@@ -1,0 +1,153 @@
+
+/* Default spacing remove kar rahe hain */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Poore page ki styling */
+body {
+    background-color: #0b0d12;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 2em;
+    background-color: #151923;
+    border-bottom: 1px solid #303747;
+}
+
+/* Logo */
+.logo {
+    font-size: 2rem;
+}
+
+.logo span,
+h1 span {
+    color: #b8f36b;
+}
+
+/* Main product section */
+.product {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 3em 1em;
+    background-color: #151923;
+    border: 1px solid #303747;
+    border-radius: 1rem;
+}
+
+/* Chhota heading */
+.tagline {
+    color: #b8f36b;
+    font-size: 0.75rem;
+}
+
+/* Product heading */
+h1 {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+/* Product description */
+.description {
+    width: 90%;
+    margin: 1rem auto;
+    color: #b5bac6;
+    font-size: 1rem;
+}
+
+/* Smart device ka design */
+.device {
+    width: 180px;
+    height: 220px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #222b38;
+    border: 3px solid #596577;
+    border-radius: 20px;
+}
+
+/* Device ke andar text */
+.device p {
+    font-size: 0.7rem;
+}
+
+.device h2 {
+    margin: 2em 0;
+    font-size: 2rem;
+    color: #b8f36b;
+}
+
+.device .status {
+    color: #b8f36b;
+}
+
+/* Product price */
+.price {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #b8f36b;
+    border: 1px solid #b8f36b;
+    border-radius: 2rem;
+    color: #111;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Features section ki spacing */
+.features {
+    padding: 2rem 5%;
+}
+
+.features h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Feature cards */
+.feature-card {
+    width: 90%;
+    max-width: 300px;
+    min-height: 130px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: #151923;
+    border: 1px solid #303747;
+    border-radius: 12px;
+}
+
+.feature-card p {
+    margin-top: 0.5rem;
+    color: #b5bac6;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    padding: 2rem;
+    background-color: #151923;
+    color: #b5bac6;
+    font-size: 0.8rem;
+}
+
+/* Viewport units ka practice:
+   Browser ki width ka 80% */
+.features h2 {
+    font-size: 5vw;
+}
+
+/* Browser ki height ke hisaab se spacing */
+footer {
+    padding-top: 2vh;
+}
