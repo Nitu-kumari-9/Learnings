@@ -12,3 +12,9 @@ This project practices CSS concepts from Chapter 1 to Chapter 8.
 - [ ] Style backgrounds, colors, borders, spacing, and fonts.
 - [ ] Create an About section and footer.
 - [ ] Use only HTML and CSS, without Flexbox, Grid, or Position.
+
+## Output
+
+
+https://github.com/user-attachments/assets/71afa0f1-7123-4a39-b5f8-a8f75dafaf46
+
