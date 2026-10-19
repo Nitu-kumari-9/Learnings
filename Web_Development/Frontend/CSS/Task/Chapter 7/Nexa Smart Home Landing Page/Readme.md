@@ -10,3 +10,9 @@ This project practices CSS concepts from Chapter 1 to Chapter 7.
 - [ ] Practice colors, backgrounds, borders, and box model.
 - [ ] Use `px`, `%`, `em`, `rem`, `vw`, and `vh` units.
 - [ ] Resize the browser and observe how different CSS units behave.
+
+
+## Output
+
+https://github.com/user-attachments/assets/bf22d9bb-921f-4037-9438-a25c244b0971
+
