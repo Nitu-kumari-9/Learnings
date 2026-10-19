@@ -15,7 +15,9 @@ This project practices CSS concepts from Chapter 1 to Chapter 8.
 ## Output
 
 
-Uploading Screen-Recording-2026-10-19-at-6.mp4…
+https://github.com/user-attachments/assets/33808f3b-49ac-4d3b-a59e-245c7987a673
+
+
 
 
 
